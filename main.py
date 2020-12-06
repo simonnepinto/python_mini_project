@@ -165,7 +165,7 @@ def schedule_generator():
     names = [] # To store names of the students
     print("List the names of the students")
     while True:
-        print("Enter name of the student" + str(len(names) + 1) + " or enter nothing to stop")
+        print("Enter name of the student " + str(len(names) + 1) + " or enter nothing to stop")
         name = input()
         if name == '':
             break
@@ -339,7 +339,7 @@ def pdf_speak(filename):
     # Display warning to the user
     print(colored('Warning : ', 'yellow'), colored('You cannot pause the audiobook in between', 'yellow'))
 
-    print("Do you want to continue?")
+    print("Do you want to continue?(Type Yes if you want to)")
     answer = input()
     answer = answer.lower()
 
@@ -420,10 +420,9 @@ def pdf_decrpyt(filename):
     print("Enter the password")
     password = input()
 
-    pdfReader.decrypt(password) # Decrypt the encrypted file with the PDF
 
     try: # if file has been decrypted
-        pageobj = pdfReader.getPage(0)
+        pdfReader.decrypt(password) # Decrypt the encrypted file with the PDF
         print(colored('Your file is decrypted. The password matches', 'blue'))
     except:
         logging.warning(colored("Couldn't decrypt the file. Kindly check the password entered", "red"))
@@ -454,13 +453,13 @@ while(choice):
 
     try:
         choice = int(input())
+        print(colored("Please pass only the filename. The extensions will be added by the program.", "yellow"))
     except:
         logging.warning(colored('You should have entered a number', 'red')) # if number is not entered
         time.sleep(2)
         continue
         print("\n")
   
-    print(colored("Please pass only the filename. The extensions will be added by the program.", "yellow"))
 
     # Perform necessary actions basis user's choice
 
