@@ -1,15 +1,13 @@
-# python_mini_project
+# Python Mini Project implementing Word, Excel and PDF concepts :page_with_curl:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-
 ## Overview :memo:
 
-A menu driven Python program which implements the following operations:
+A menu driven Python program that implements the following operations:
 
-1)  Displays the list of people who have birthdays in the current month and displays the birthdate of any student (provided its available in the spreadsheet) asked by the user.
+1)  Displays the list of people who have birthdays in the current month along with displaying the birthdate of any student (provided its available in the spreadsheet) asked       by the user.
 2)  Creates a class schedule for every student. The user must pass the semester, section, and names of the students.
 3)  Adds watermark to PDF files. User needs to specify the starting and ending page numbers.
-4)  Converts word file to a PDF file.
+4)  Converts word file to PDF file.
 5)  Merges multiple PDF files into a single PDF.
 6)  Converts PDF file into an audiobook.
 7)  Encrypts a PDF file.
