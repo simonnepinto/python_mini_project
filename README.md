@@ -1,10 +1,10 @@
 # Python Mini Project implementing Word, Excel and PDF concepts :page_with_curl:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-<img align="center" width="100" height="100" src="https://forthebadge.com/images/badges/made-with-python.svg">
-<div align="center">
-![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)
-</div>
+<p align="center">
+  <img src="https://forthebadge.com/images/badges/made-with-python.svg">
+</p>
+
 
 ## Overview :memo:
 
